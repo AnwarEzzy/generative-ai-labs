@@ -8,11 +8,11 @@ cells = []
 
 
 def md(source):
-    cells.append({"cell_type": "markdown", "metadata": {}, "source": dedent(source).strip().splitlines(keepends=True)})
+    cells.append({"cell_type": "markdown", "id": f"cell-{len(cells):02d}", "metadata": {}, "source": dedent(source).strip().splitlines(keepends=True)})
 
 
 def code(source):
-    cells.append({"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [], "source": dedent(source).strip().splitlines(keepends=True)})
+    cells.append({"cell_type": "code", "id": f"cell-{len(cells):02d}", "execution_count": None, "metadata": {}, "outputs": [], "source": dedent(source).strip().splitlines(keepends=True)})
 
 
 md(r"""
