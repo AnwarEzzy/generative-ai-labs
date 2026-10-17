@@ -31,5 +31,3 @@ Exécution CPU avec PyTorch 2.14.1, sur le jeu de test complet :
 | VAE | 10 époques | Perte 150,68 par image ; BCE 144,92 ; KL 5,76 |
 
 La métrique VAE de test reconstruit à partir de la moyenne latente `μ` pour rester déterministe. Les figures et les sorties d'entraînement sont enregistrées dans le notebook. Ces trois métriques correspondent à des objectifs différents et ne se comparent pas directement.
-
-`build_notebook.py` permet de régénérer le notebook source avec `uv run python build_notebook.py`. Cette commande remplace les sorties enregistrées ; elle sert à modifier le contenu du TP avant une nouvelle exécution.
