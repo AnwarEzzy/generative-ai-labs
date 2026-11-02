@@ -1,0 +1,15 @@
+# Notebook fourni comme référence locale
+/rag_multimodal_agentique.ipynb
+
+# Données et modèles téléchargés ou générés
+/artifacts/
+/pdfs/
+*.pdf
+*.pt
+*.pth
+
+# Environnement et caches
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
