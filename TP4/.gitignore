@@ -1,0 +1,13 @@
+# Documents du professeur et données brutes locales
+architecture_transformer.ipynb
+individual+household+electric+power+consumption.zip
+*.heic
+
+# Fichiers générés
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.png
+household_power_consumption.txt
